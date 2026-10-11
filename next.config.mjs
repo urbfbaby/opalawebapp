@@ -4,6 +4,11 @@ const allowIndexing = process.env.NEXT_PUBLIC_ALLOW_INDEXING === 'true';
 const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '50mb',
+    },
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [

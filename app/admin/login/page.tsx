@@ -38,16 +38,11 @@ export default function AdminLoginPage() {
               type="password"
               id="password"
               name="password"
-              defaultValue="opala2026"
               required
               autoFocus
               className="w-full px-3 py-2 text-sm bg-opala-bg border border-opala-border rounded-[2px] text-opala-charcoal focus:bg-white focus:outline-none focus:border-navy font-mono"
               placeholder="••••••••••••"
             />
-            <div className="mt-2 p-2 bg-amber-50 border border-amber-200 rounded-[2px] flex items-center justify-between text-[11px] text-amber-900">
-              <span>Password dev: <strong className="font-mono">opala2026</strong></span>
-              <span className="text-amber-700">(Sudah terisi otomatis)</span>
-            </div>
           </div>
 
           <button

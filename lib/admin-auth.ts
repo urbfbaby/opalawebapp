@@ -17,7 +17,7 @@ export async function setAdminSession(): Promise<void> {
   const cookieStore = await cookies();
   cookieStore.set(ADMIN_COOKIE_NAME, getAdminPassword(), {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
+    secure: false,
     sameSite: "lax",
     path: "/",
     maxAge: 60 * 60 * 24 * 7, // 7 days
