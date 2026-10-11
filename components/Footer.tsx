@@ -97,7 +97,7 @@ export function Footer() {
         </div>
 
         {/* Thin rule & Bottom legal info */}
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-[#FAF8F5]/50">
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 text-xs text-[#FAF8F5]/50">
           <div>
             <p>
               Opala Property is managed by Opala Group Pty Ltd, ABN [00 000 000 000].
@@ -105,6 +105,12 @@ export function Footer() {
             <p className="mt-0.5">
               327 La Trobe Street apartments, Melbourne CBD.
             </p>
+          </div>
+          <div className="text-[#FAF8F5]/40 text-xs text-left lg:text-center">
+            <span>
+              Website developed & maintained by{" "}
+              <span className="text-[#FAF8F5]/75 font-medium">Aurora Digital</span>
+            </span>
           </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <span>© 2026 Opala Group Pty Ltd. All rights reserved.</span>
