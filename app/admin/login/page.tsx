@@ -16,7 +16,7 @@ export default function AdminLoginPage() {
             Opala Admin Portal
           </h1>
           <p className="text-xs text-opala-muted font-sans">
-            Masuk untuk mengelola apartemen, tarif mingguan, feature flags, dan pesan calon penyewa.
+            Sign in to manage apartments, weekly rates, feature flags, and tenant enquiries.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ export default function AdminLoginPage() {
               htmlFor="password"
               className="block text-xs uppercase tracking-wider font-medium text-opala-muted mb-1"
             >
-              Kata Sandi Admin
+              Admin Password
             </label>
             <input
               type="password"
@@ -50,7 +50,7 @@ export default function AdminLoginPage() {
             disabled={isPending}
             className="w-full inline-flex items-center justify-center px-4 py-2.5 text-xs font-semibold uppercase tracking-wider bg-navy text-[#FAF8F5] hover:bg-navy-surface transition-colors rounded-[2px] disabled:opacity-50"
           >
-            {isPending ? "Memverifikasi..." : "Masuk ke Dashboard Admin →"}
+            {isPending ? "Verifying..." : "Sign in to Dashboard →"}
           </button>
         </form>
 
@@ -59,7 +59,7 @@ export default function AdminLoginPage() {
             href="/"
             className="text-xs text-opala-muted hover:text-navy underline transition-colors"
           >
-            ← Kembali ke Website Publik
+            ← Return to Public Website
           </a>
         </div>
       </div>
