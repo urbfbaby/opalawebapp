@@ -23,7 +23,13 @@ jobs:
           script_stop: true
           script: |
             set -e
-            APP_DIR="$HOME/opalawebapp"
+
+            # 1. Pastikan PATH Node.js & PM2 terbaca
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            export PATH="$PATH:$HOME/.nvm/versions/node/$(ls $HOME/.nvm/versions/node 2>/dev/null | tail -n 1)/bin:/usr/local/bin:/usr/bin"
+
+            APP_DIR="/home/ubuntu/opalawebapp"
 
             echo "=== 1. Checking Application Directory ==="
             if [ ! -d "$APP_DIR" ]; then
