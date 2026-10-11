@@ -103,11 +103,13 @@ Located in [`/lib/tokens.ts`](file:///d:/Opala%20Porto/lib/tokens.ts) and config
 
 ---
 
-## 7. AWS & Docker Production Deployment
+## 7. Production Deployment (GitHub Actions & PM2 on AWS EC2)
 
-- **Containerization**: Multi-stage `Dockerfile` producing Next.js standalone build (<150MB) + `docker-compose.yml`.
-- **Reverse Proxy**: Nginx configuration in `nginx/opala.conf` with HTTP to HTTPS redirect, Let's Encrypt SSL, Gzip compression, and static asset caching.
-- **Documentation**: Detailed step-by-step setup guide in [`docs/DEPLOYMENT_AWS.md`](file:///d:/Opala%20Porto/docs/DEPLOYMENT_AWS.md).
+- **Target Architecture**: Co-hosted on existing AWS EC2 Ubuntu instance (`t3.small`) alongside `opala-tracker`.
+- **Multi-Domain Nginx**: Independent Server Blocks (`nginx/opala-webapp.conf`) proxying to port `3001`, with isolated Let's Encrypt SSL certificates.
+- **Process Manager**: Managed via PM2 with `ecosystem.config.js` (`opala-webapp` on port 3001, max memory 500MB).
+- **CI/CD Pipeline**: Automated deployment via GitHub Actions (`.github/workflows/deploy.yml`) using SSH action on push to `main`.
+- **Documentation**: Detailed setup instructions in [`docs/DEPLOYMENT_EC2_PM2.md`](file:///d:/Opala%20Porto/docs/DEPLOYMENT_EC2_PM2.md). Containerized alternative remains in [`docs/DEPLOYMENT_AWS.md`](file:///d:/Opala%20Porto/docs/DEPLOYMENT_AWS.md).
 
 ---
 
