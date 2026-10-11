@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import { useRouter } from "next/navigation";
 import {
   uploadApartmentPhotoAction,
   deleteApartmentPhotoAction,
@@ -19,6 +20,7 @@ export function ApartmentPhotoUploader({
   unitCode,
   images,
 }: ApartmentPhotoUploaderProps) {
+  const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [message, setMessage] = useState<{ text: string; error?: boolean } | null>(null);
 
@@ -32,6 +34,7 @@ export function ApartmentPhotoUploader({
       if (res.success) {
         setMessage({ text: "Photo uploaded and added to unit successfully!" });
         form.reset();
+        router.refresh();
       } else {
         setMessage({ text: res.message || "Failed to upload photo.", error: true });
       }
@@ -43,6 +46,7 @@ export function ApartmentPhotoUploader({
     if (confirm("Remove this photo from the apartment?")) {
       startTransition(async () => {
         await deleteApartmentPhotoAction(slug, src);
+        router.refresh();
       });
     }
   };

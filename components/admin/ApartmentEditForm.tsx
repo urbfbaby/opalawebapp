@@ -26,10 +26,11 @@ export function ApartmentEditForm({ apartment: apt }: ApartmentEditFormProps) {
   const [state, formAction, isPending] = useActionState(handleUpdate, null);
 
   return (
-    <form
-      action={formAction}
-      className="space-y-8 bg-white border border-opala-border p-6 sm:p-8 rounded-[2px]"
-    >
+    <div className="space-y-8">
+      <form
+        action={formAction}
+        className="space-y-8 bg-white border border-opala-border p-6 sm:p-8 rounded-[2px]"
+      >
       {state?.message && (
         <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-[2px] text-xs">
           {state.message}
@@ -240,13 +241,16 @@ export function ApartmentEditForm({ apartment: apt }: ApartmentEditFormProps) {
           {isPending ? "Saving changes..." : "Save changes"}
         </button>
       </div>
+    </form>
 
-      {/* Cloud Photos & Image Management */}
+    {/* Cloud Photos & Image Management (Independent Component) */}
+    <div className="bg-white border border-opala-border p-6 sm:p-8 rounded-[2px]">
       <ApartmentPhotoUploader
         slug={apt.slug}
         unitCode={apt.code}
         images={apt.images}
       />
-    </form>
+    </div>
+  </div>
   );
 }
