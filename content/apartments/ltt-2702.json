@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-2702",
+  "code": "LTT 2702",
+  "property": "la-trobe-tower",
+  "unitType": "2br-1ba",
+  "floor": 27,
+  "floorInferred": true,
+  "description": "Bright two bedroom apartment with large windows in both the living room and the master bedroom, for a comfortable, airy feel.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-2702/01-living.jpg", "alt": "Living area in LTT 2702", "category": "living", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-2702/02-bedroom.jpg", "alt": "Bedroom with study desk in LTT 2702", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2702/03-kitchen.jpg", "alt": "Kitchen in LTT 2702", "category": "kitchen", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2702/04-bathroom.jpg", "alt": "Bathroom in LTT 2702", "category": "bathroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

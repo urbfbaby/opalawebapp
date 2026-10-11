@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-401",
+  "code": "LTT 401",
+  "property": "la-trobe-tower",
+  "unitType": "2br-1ba",
+  "floor": 4,
+  "floorInferred": false,
+  "description": "Bright and comfortable two bedroom apartment on level 4, with large living room windows and natural light throughout.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-401/01-living.jpg", "alt": "Living and kitchen area in LTT 401", "category": "living", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-401/02-bedroom.jpg", "alt": "Bedroom in LTT 401", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-401/03-bedroom-2.jpg", "alt": "Second bedroom in LTT 401", "category": "bedroom", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-401/04-bathroom.jpg", "alt": "Bathroom in LTT 401", "category": "bathroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

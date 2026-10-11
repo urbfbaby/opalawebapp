@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-704",
+  "code": "LTT 704",
+  "property": "la-trobe-tower",
+  "unitType": "1br-1ba",
+  "floor": 7,
+  "floorInferred": false,
+  "description": "Cosy one bedroom apartment on level 7 with a bright living room and plenty of natural light.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-704/01-living.jpg", "alt": "Living and dining area in LTT 704", "category": "living", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-704/02-bedroom.jpg", "alt": "Bedroom in LTT 704", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-704/03-kitchen.jpg", "alt": "Kitchen in LTT 704", "category": "kitchen", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-704/04-bathroom.jpg", "alt": "Bathroom in LTT 704", "category": "bathroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

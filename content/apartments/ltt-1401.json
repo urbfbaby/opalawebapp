@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-1401",
+  "code": "LTT 1401",
+  "property": "la-trobe-tower",
+  "unitType": "2br-1ba",
+  "floor": 14,
+  "floorInferred": false,
+  "description": "Spacious two bedroom apartment on level 14 with a bright living room and a city outlook.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-1401/01-kitchen-dining.jpg", "alt": "Kitchen and dining area in LTT 1401", "category": "kitchen", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-1401/02-kitchen.jpg", "alt": "Kitchen in LTT 1401", "category": "kitchen", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-1401/03-bedroom.jpg", "alt": "Bedroom in LTT 1401", "category": "bedroom", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-1401/04-bathroom.jpg", "alt": "Bathroom in LTT 1401", "category": "bathroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

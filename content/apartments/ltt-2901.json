@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-2901",
+  "code": "LTT 2901",
+  "property": "la-trobe-tower",
+  "unitType": "2br-1ba",
+  "floor": 29,
+  "floorInferred": true,
+  "description": "Comfortable two bedroom apartment with excellent natural light from the living room and bedroom 1 windows.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-2901/01-living.jpg", "alt": "Living area in LTT 2901", "category": "living", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-2901/02-bedroom.jpg", "alt": "Bedroom with built-in wardrobes in LTT 2901", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2901/03-hallway.jpg", "alt": "Hallway to bedroom and bathroom in LTT 2901", "category": "living", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2901/04-bathroom.jpg", "alt": "Bathroom in LTT 2901", "category": "bathroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

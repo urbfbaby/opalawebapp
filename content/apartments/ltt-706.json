@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-706",
+  "code": "LTT 706",
+  "property": "la-trobe-tower",
+  "unitType": "1br-1ba",
+  "floor": 7,
+  "floorInferred": false,
+  "description": "Modern one bedroom apartment on level 7 with a bright living area, large windows and comfortable living space.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-706/01-kitchen.jpg", "alt": "Kitchen in LTT 706", "category": "kitchen", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-706/02-living.jpg", "alt": "Living area in LTT 706", "category": "living", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-706/03-bathroom.jpg", "alt": "Bathroom in LTT 706", "category": "bathroom", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-706/04-bedroom.jpg", "alt": "Bedroom in LTT 706", "category": "bedroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "la-trobe-tower",
+  "name": "La Trobe Tower",
+  "address": "327 La Trobe Street",
+  "suburb": "Melbourne CBD",
+  "state": "VIC",
+  "postcode": "3000",
+  "country": "Australia",
+  "summary": "In the heart of Melbourne CBD, within walking distance of major universities, transport, cafes and supermarkets.",
+  "minStay": "6 months",
+  "flexibleStay": "Flexible options for 3 to 4 months are available.",
+  "billsCoverage": ["internet", "gas", "water", "electricity"],
+  "nearby": [
+    { "name": "RMIT University", "distance": "About 7 minutes' walk", "verified": false },
+    { "name": "University of Melbourne", "distance": "About 15 minutes", "verified": false },
+    { "name": "Victoria University City Campus", "distance": "Close by", "verified": false }
+  ],
+  "map": { "lat": -37.8115, "lng": 144.9602, "note": "Set coordinates for 327 La Trobe Street" },
+  "standardFacilities": [
+    "wifi",
+    "aircon",
+    "heating",
+    "private-bathroom",
+    "living-space",
+    "dining-area",
+    "natural-light",
+    "fully-furnished",
+    "fridge",
+    "stove",
+    "oven",
+    "kitchen-equipment",
+    "bed",
+    "wardrobe",
+    "study-desk",
+    "washing-machine",
+    "dryer",
+    "iron",
+    "ironing-board"
+  ],
+  "published": true
+}

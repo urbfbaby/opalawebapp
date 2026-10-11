@@ -1,0 +1,15 @@
+{
+  "key": "2br-1ba",
+  "label": "2 Bedroom, 1 Bathroom",
+  "bedrooms": 2,
+  "bathrooms": 1,
+  "rent": {
+    "currency": "AUD",
+    "unit": "week",
+    "fromExclBills": 830,
+    "fromInclBills": 930,
+    "display": "from",
+    "reviewed": "Quarterly",
+    "updatedAt": "2026-10-12"
+  }
+}

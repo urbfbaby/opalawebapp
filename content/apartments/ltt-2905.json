@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-2905",
+  "code": "LTT 2905",
+  "property": "la-trobe-tower",
+  "unitType": "1br-1ba",
+  "floor": 29,
+  "floorInferred": true,
+  "description": "Cosy and bright one bedroom apartment with natural light in the living room and a practical layout for city living.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-2905/01-kitchen.jpg", "alt": "Kitchen in LTT 2905", "category": "kitchen", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-2905/02-bedroom.jpg", "alt": "Bedroom in LTT 2905", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2905/03-bathroom.jpg", "alt": "Bathroom in LTT 2905", "category": "bathroom", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2905/04-kitchen-wide.jpg", "alt": "Kitchen and hallway in LTT 2905", "category": "kitchen", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

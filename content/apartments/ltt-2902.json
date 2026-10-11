@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-2902",
+  "code": "LTT 2902",
+  "property": "la-trobe-tower",
+  "unitType": "2br-1ba",
+  "floor": 29,
+  "floorInferred": true,
+  "description": "Well-lit two bedroom apartment with bright windows in the living room and bedroom 1, ideal for students or shared living.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-2902/01-living-dining.jpg", "alt": "Living and dining area in LTT 2902", "category": "living", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-2902/02-bedroom.jpg", "alt": "Bedroom 1 in LTT 2902", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2902/03-bedroom-2.jpg", "alt": "Second bedroom in LTT 2902", "category": "bedroom", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2902/04-bathroom.jpg", "alt": "Bathroom in LTT 2902", "category": "bathroom", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}

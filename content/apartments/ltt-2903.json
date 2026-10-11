@@ -1,0 +1,19 @@
+{
+  "slug": "ltt-2903",
+  "code": "LTT 2903",
+  "property": "la-trobe-tower",
+  "unitType": "1br-1ba",
+  "floor": 29,
+  "floorInferred": true,
+  "description": "Modern one bedroom apartment with a bright living room and a comfortable, fully furnished setup.",
+  "extraFacilities": [],
+  "stayTypes": ["long-term"],
+  "availableFrom": null,
+  "published": true,
+  "images": [
+    { "src": "/images/apartments/ltt-2903/01-living.jpg", "alt": "Living area in LTT 2903", "category": "living", "order": 1, "isCover": true, "placeholder": true },
+    { "src": "/images/apartments/ltt-2903/02-bedroom.jpg", "alt": "Bedroom in LTT 2903", "category": "bedroom", "order": 2, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2903/03-bathroom.jpg", "alt": "Bathroom in LTT 2903", "category": "bathroom", "order": 3, "isCover": false, "placeholder": true },
+    { "src": "/images/apartments/ltt-2903/04-kitchen.jpg", "alt": "Kitchen in LTT 2903", "category": "kitchen", "order": 4, "isCover": false, "placeholder": true }
+  ]
+}
